@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import ColorPalette from './ColorPallete';
+import {useState} from 'react';
 
 function App() {
+  const [selectedColorCodes, setSelectedColorCodes] = useState([]);
+
   const colors1 = {
     complementaryColors: [
       { code: '13-4403', name: 'Silver Birch', color: '#D3D3D3' },
@@ -39,23 +42,36 @@ function App() {
     ],
   }
 
+  const colors = [colors1, colors2]
+
   return (
     <>
       <div className="flex flex-wrap gap-4">
-        <ColorPalette 
-          colors={colors1}
-          onColorClick={onColorClick}
-        />
-        <ColorPalette 
-          colors={colors2}
-          onColorClick={onColorClick}
-        />
+        {
+          colors.map((colorPallete, i) => (
+            <ColorPalette 
+              colors={colorPallete}
+              onColorClick={onColorClick}
+          />
+        ))}
       </div>
     </>
   );
 
   function onColorClick(colorCode) {
-    console.log(colorCode)
+    const newSelectedColorCodes = selectedColorCodes.slice();
+
+    if (selectedColorCodes.includes(colorCode)) {
+      newSelectedColorCodes.splice(newSelectedColorCodes.indexOf(colorCode), 1);
+    } else {
+      newSelectedColorCodes.push(colorCode);
+    }
+
+    console.log(newSelectedColorCodes);
+    setSelectedColorCodes(newSelectedColorCodes);
+    
+    // Q: didn't update yet?
+    // console.log(selectedColorCodes)
   }
 }
 
