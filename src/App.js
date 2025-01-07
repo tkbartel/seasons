@@ -44,13 +44,19 @@ function App() {
       <div className="flex flex-wrap gap-4">
         <ColorPalette 
           colors={colors1}
+          onColorClick={onColorClick}
         />
         <ColorPalette 
           colors={colors2}
+          onColorClick={onColorClick}
         />
       </div>
     </>
   );
+
+  function onColorClick(colorCode) {
+    console.log(colorCode)
+  }
 }
 
 export default App;
