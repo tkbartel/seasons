@@ -44,12 +44,28 @@ function App() {
 
   const colors = [colors1, colors2]
 
+  function includesColor(colorPallete) {
+    // if no color is selected, always return true
+    if (selectedColorCodes.length == 0) {
+      return true;
+    }
+
+    let includesSelectedColor = false;
+    for (const color of selectedColorCodes) {
+      if (colorPallete.complementaryColors.map((struct) => struct.code).includes(color) || colorPallete.neutrals.map((struct) => struct.code).includes(color) || colorPallete.accents.map((struct) => struct.code).includes(color)) {
+        includesSelectedColor = true;
+      }
+    }
+    return includesSelectedColor;
+  }
+  
   return (
     <>
       <div className="flex flex-wrap gap-4">
         {
-          colors.map((colorPallete, i) => (
+          colors.filter((colorPallete) => includesColor(colorPallete)).map((colorPallete, i) => (
             <ColorPalette 
+              key={i}
               colors={colorPallete}
               onColorClick={onColorClick}
           />
