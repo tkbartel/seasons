@@ -63,6 +63,7 @@ function App() {
               key={i}
               colors={colorPallete}
               onColorClick={onColorClick}
+              selectedColorCodes={selectedColorCodes}
           />
         ))}
       </div>
