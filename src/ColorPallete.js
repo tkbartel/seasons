@@ -18,7 +18,7 @@ const ColorPalette = ({
             // }
             <div
               key={color.name}
-              className={`relative box-content ${shouldHighlightColor ? "border" : ""} ${
+              className={`relative box-border ${shouldHighlightColor ? "border" : ""} ${
                   shouldHighlightColor ? "p-[3px]" : "p-[4px]"
                 } rounded bg-clip-content col-span-2 row-span-3 col-start-${
                 i * 2 + 1
