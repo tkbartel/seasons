@@ -13,16 +13,12 @@ const ColorPalette = ({
           const shouldHighlightColor = selectedColorCodes.includes(color.code);
           return (
             // {`${javascript whatever}`} used as f-string'
-            //${
-            //   shouldHighlightColor ? "[10px]" : "[12px]"
-            // }
             <div
               key={color.name}
-              className={`relative box-border ${shouldHighlightColor ? "border" : ""} ${
-                  shouldHighlightColor ? "p-[3px]" : "p-[4px]"
-                } rounded bg-clip-content col-span-2 row-span-3 col-start-${
-                i * 2 + 1
-              }`}
+              className={`relative box-border 
+                border p-1 ${shouldHighlightColor ? "" : "border-transparent"} 
+                rounded bg-clip-content 
+                col-span-2 row-span-3 col-start-${i * 2 + 1}`}
               style={{ backgroundColor: color.color }}
               onClick={() => onColorClick(color.code)}
             >
