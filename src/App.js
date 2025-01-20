@@ -2,9 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 import ColorPalette from './ColorPallete';
 import {useState} from 'react';
+import colors_json from './true-winter-colors-hex.json';
 
 function App() {
   const [selectedColorCodes, setSelectedColorCodes] = useState([]);
+
+  // Make a dictionary "Color Name" -> {TCX, Hex RGB value, Color Name}
+  const colorLookUpTable = {};
+  colors_json.colors.forEach((color_struct) => {
+    colorLookUpTable[color_struct.name] = color_struct
+  })
+  console.log(colorLookUpTable)
 
   const colors1 = {
     complementaryColors: [
