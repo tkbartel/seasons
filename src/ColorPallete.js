@@ -6,6 +6,12 @@ const ColorPalette = ({
   selectedColors,
   colorLookUpTable,
 }) => {
+  // [...complementary, ...neutrals, ...accents].forEach((name) => {
+  //   if (!colorLookUpTable[name]) {
+  //     console.log(name);
+  //   }
+  // });
+
   return (
     <>
       <div className="grid grid-cols-[repeat(7,_1fr)_auto] grid-rows-4 gap-4 h-72 w-115 overflow-hidden">

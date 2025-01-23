@@ -224,6 +224,21 @@
       "name": "SheerLilac",
       "code": "16-3617TCX",
       "hex": "#C8A7E1"
+    },
+    {
+      "name": "JellyBean",
+      "code": "17-6030TCX",
+      "hex": "#006952"
+    },
+    {
+      "name": "MalibuBlue",
+      "code": "17-4435TCX",
+      "hex": "#4589C4"
+    },
+    {
+      "name": "RaspberryRose",
+      "code": "18-2333TCX",
+      "hex": "#B33968"
     }
   ]
 }

@@ -22,5 +22,53 @@
     "complementary": ["BellwetherBlue", "MagentaPurple", "GreenHeron"],
     "neutrals": ["BlueBlush", "BlackBeauty"],
     "accents": ["ElfinYellow", "RoseRed", "Charisma", "Bracken"]
+  },
+  {
+    "name": "Gamine 1",
+    "complementary": ["Faience", "PurpleSapphire", "VeryBerry"],
+    "neutrals": ["Molé", "BrilliantWhite"],
+    "accents": ["Illuminating", "Granita", "MagentaPurple", "Aventurine"]
+  },
+  {
+    "name": "Gamine 2",
+    "complementary": ["GreenHeron", "RoseRed", "SpectraGreen"],
+    "neutrals": ["Castlerock", "BlueBlush"],
+    "accents": ["Limelight", "TenderTouch", "Hollyhock", "CyanBlue"]
+  },
+  {
+    "name": "Gamine 3",
+    "complementary": ["MinionYellow", "RoseRed", "JellyBean"],
+    "neutrals": ["NeutralGray", "BlackBeauty"],
+    "accents": ["MagentaPurple", "MalibuBlue", "SurfTheWeb", "GreenHeron"]
+  },
+  {
+    "name": "Gamine 4",
+    "complementary": ["CyanBlue", "SurfTheWeb", "Charisma"],
+    "neutrals": ["BrilliantWhite", "BlackBeauty"],
+    "accents": ["MinionYellow", "RaspberryRose", "Granita", "IslandGreen"]
+  },
+  {
+    "name": "Natural 1",
+    "complementary": ["MistyJade", "SpectraGreen", "Faience"],
+    "neutrals": ["Molé", "BrushedNickel"],
+    "accents": ["LilyWhite", "MalibuBlue", "UltramarineGreen", "GreenHeron"]
+  },
+  {
+    "name": "Natural 2",
+    "complementary": ["MourningDove", "SpectraGreen", "UltramarineGreen"],
+    "neutrals": ["Molé", "OceanCavern"],
+    "accents": ["SpaRetreat", "CyanBlue", "VictoriaBlue", "Faience"]
+  },
+  {
+    "name": "Natural 3",
+    "complementary": ["Bracken", "Aventurine", "JellyBean"],
+    "neutrals": ["MourningDove", "BlackBeauty"],
+    "accents": ["CyanBlue", "Faience", "Granita", "MagentaPurple"]
+  },
+  {
+    "name": "Natural 4",
+    "complementary": ["Faience", "GreenHeron", "MedievalBlue"],
+    "neutrals": ["Bracken", "LilyWhite"],
+    "accents": ["MistyJade", "IslandGreen", "SpectraGreen", "CyanBlue"]
   }
 ]
