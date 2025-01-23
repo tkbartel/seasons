@@ -1,0 +1,26 @@
+[
+  {
+    "name": "dramatic 1",
+    "complementary": ["BlackBeauty", "Acai", "OceanCavern"],
+    "neutrals": ["BrilliantWhite", "NeutralGray"],
+    "accents": ["Limelight", "Granita", "Hollyhock", "Tidepool"]
+  },
+  {
+    "name": "dramatic 2",
+    "complementary": ["BrilliantWhite", "MinionYellow", "Aventurine"],
+    "neutrals": ["Molé", "LilyWhite"],
+    "accents": ["RoseRed", "MagentaPurple", "BellwetherBlue", "IslandGreen"]
+  },
+  {
+    "name": "dramatic 3",
+    "complementary": ["Molé", "Aventurine", "Brushed"],
+    "neutrals": ["BrilliantWhite", "BlackBeauty"],
+    "accents": ["Illuminating", "FestivalFuchsia", "SurfTheWeb", "Acai"]
+  },
+  {
+    "name": "dramatic 4",
+    "complementary": ["BellwetherBlue", "MagentaPurple", "GreenHeron"],
+    "neutrals": ["BlueBlush", "BlackBeauty"],
+    "accents": ["ElfinYellow", "RoseRed", "Charisma", "Bracken"]
+  }
+]
