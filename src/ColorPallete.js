@@ -12,6 +12,12 @@ const ColorPalette = ({
   //   }
   // });
 
+  const pascalToSpaced = (text) => {
+    return text.replace(/([A-Z])/g, (_, letter, index) => {
+      return index === 0 ? letter : " " + letter;
+    });
+  };
+
   return (
     <>
       <div className="grid grid-cols-[repeat(7,_1fr)_auto] grid-rows-4 gap-4 h-72 w-115 overflow-hidden">
@@ -32,7 +38,7 @@ const ColorPalette = ({
                 onClick={() => onColorClick(color.name)}
               >
                 <div className="absolute bottom-0 m-2">
-                  <div>{color.name}</div>
+                  <div>{pascalToSpaced(color.name)}</div>
                   <div>{color.code} TCX</div>
                 </div>
               </div>
@@ -50,7 +56,7 @@ const ColorPalette = ({
               onClick={() => onColorClick(color.name)}
             >
               <div className="absolute bottom-0 m-2">
-                <div>{color.name}</div>
+                <div>{pascalToSpaced(color.name)}</div>
                 <div>{color.code} TCX</div>
               </div>
             </div>
@@ -66,7 +72,7 @@ const ColorPalette = ({
                 onClick={() => onColorClick(color.name)}
               ></div>
               <div className={`col-start-8 row-start-${i}`}>
-                <div>{color.name}</div>
+                <div>{pascalToSpaced(color.name)}</div>
                 <div>{color.code} TCX</div>
               </div>
             </>
