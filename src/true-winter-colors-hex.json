@@ -2,242 +2,242 @@
   "colors": [
     {
       "name": "NeutralGray",
-      "code": "17-4402TCX",
+      "code": "17-4402",
       "hex": "#989A98"
     },
     {
       "name": "Limelight",
-      "code": "12-0740TCX",
+      "code": "12-0740",
       "hex": "#E3E567"
     },
     {
       "name": "Granita",
-      "code": "19-2039TCX",
+      "code": "19-2039",
       "hex": "#924857"
     },
     {
       "name": "Hollyhock",
-      "code": "19-2924TCX",
+      "code": "19-2924",
       "hex": "#823270"
     },
     {
       "name": "Tidepool",
-      "code": "18-5619TCX",
+      "code": "18-5619",
       "hex": "#006B77"
     },
     {
       "name": "BrilliantWhite",
-      "code": "11-4001TCX",
+      "code": "11-4001",
       "hex": "#EDEEE8"
     },
     {
       "name": "BlackBeauty",
-      "code": "19-3911TCX",
+      "code": "19-3911",
       "hex": "#26262A"
     },
     {
       "name": "Acai",
-      "code": "19-3628TCX",
+      "code": "19-3628",
       "hex": "#46295A"
     },
     {
       "name": "OceanCavern",
-      "code": "19-3937TCX",
+      "code": "19-3937",
       "hex": "#1B365D"
     },
     {
       "name": "LilyWhite",
-      "code": "11-4301TCX",
+      "code": "11-4301",
       "hex": "#E8E9E5"
     },
     {
       "name": "RoseRed",
-      "code": "18-1852TCX",
+      "code": "18-1852",
       "hex": "#C92351"
     },
     {
       "name": "MagentaPurple",
-      "code": "19-2428TCX",
+      "code": "19-2428",
       "hex": "#9B284F"
     },
     {
       "name": "BellwetherBlue",
-      "code": "19-3943TCX",
+      "code": "19-3943",
       "hex": "#1D3F5E"
     },
     {
       "name": "IslandGreen",
-      "code": "16-6240TCX",
+      "code": "16-6240",
       "hex": "#2BAE66"
     },
     {
       "name": "Molé",
-      "code": "19-1106TCX",
+      "code": "19-1106",
       "hex": "#392D2B"
     },
     {
       "name": "MinionYellow",
-      "code": "13-0851TCX",
+      "code": "13-0851",
       "hex": "#FFE056"
     },
     {
       "name": "Aventurine",
-      "code": "19-5421TCX",
+      "code": "19-5421",
       "hex": "#185852"
     },
     {
       "name": "Illuminating",
-      "code": "13-0647TCX",
+      "code": "13-0647",
       "hex": "#F5DF4D"
     },
     {
       "name": "ElfinYellow",
-      "code": "11-0620TCX",
+      "code": "11-0620",
       "hex": "#EEEA97"
     },
     {
       "name": "SurfTheWeb",
-      "code": "19-3952TCX",
+      "code": "19-3952",
       "hex": "#1F4B8F"
     },
     {
       "name": "BrushedNickel",
-      "code": "18-5102TCX",
+      "code": "18-5102",
       "hex": "#6E7074"
     },
     {
       "name": "Charisma",
-      "code": "18-3340TCX",
+      "code": "18-3340",
       "hex": "#86377B"
     },
     {
       "name": "GreenHeron",
-      "code": "19-4727TCX",
+      "code": "19-4727",
       "hex": "#0C4D4A"
     },
     {
       "name": "FestivalFuchsia",
-      "code": "19-2434TCX",
+      "code": "19-2434",
       "hex": "#9E1B64"
     },
     {
       "name": "Bracken",
-      "code": "19-1015TCX",
+      "code": "19-1015",
       "hex": "#4A3C30"
     },
     {
       "name": "BlueBlush",
-      "code": "12-4705TCX",
+      "code": "12-4705",
       "hex": "#BFCAD6"
     },
     {
       "name": "Faience",
-      "code": "18-4232TCX",
+      "code": "18-4232",
       "hex": "#2F6386"
     },
     {
       "name": "PurpleSapphire",
-      "code": "18-3540TCX",
+      "code": "18-3540",
       "hex": "#563D82"
     },
     {
       "name": "VeryBerry",
-      "code": "18-2336TCX",
+      "code": "18-2336",
       "hex": "#B4296D"
     },
     {
       "name": "TenderTouch",
-      "code": "12-2807TCX",
+      "code": "12-2807",
       "hex": "#E6CDE0"
     },
     {
       "name": "CyanBlue",
-      "code": "16-4529TCX",
+      "code": "16-4529",
       "hex": "#0085C3"
     },
     {
       "name": "Castlerock",
-      "code": "18-0201TCX",
+      "code": "18-0201",
       "hex": "#54565B"
     },
     {
       "name": "SpectraGreen",
-      "code": "17-5335TCX",
+      "code": "17-5335",
       "hex": "#007864"
     },
     {
       "name": "JellyBean",
-      "code": "17-6030TCX",
+      "code": "17-6030",
       "hex": "#006952"
     },
     {
       "name": "MalibuBlue",
-      "code": "17-4435TCX",
+      "code": "17-4435",
       "hex": "#4589C4"
     },
     {
       "name": "RaspberryRose",
-      "code": "18-2333TCX",
+      "code": "18-2333",
       "hex": "#B33968"
     },
     {
       "name": "UltramarineGreen",
-      "code": "18-5338TCX",
+      "code": "18-5338",
       "hex": "#006B54"
     },
     {
       "name": "MistyJade",
-      "code": "13-6008TCX",
+      "code": "13-6008",
       "hex": "#BCD4C5"
     },
     {
       "name": "SpaRetreat",
-      "code": "13-4908TCX",
+      "code": "13-4908",
       "hex": "#BDCDCD"
     },
     {
       "name": "VictoriaBlue",
-      "code": "18-4148TCX",
+      "code": "18-4148",
       "hex": "#00599F"
     },
     {
       "name": "MourningDove",
-      "code": "16-4400TCX",
+      "code": "16-4400",
       "hex": "#9A9B9C"
     },
     {
       "name": "MedievalBlue",
-      "code": "19-3933TCX",
+      "code": "19-3933",
       "hex": "#253046"
     },
     {
       "name": "PrismViolet",
-      "code": "19-3748TCX",
+      "code": "19-3748",
       "hex": "#554176"
     },
     {
       "name": "WildOrchid",
-      "code": "16-2120TCX",
+      "code": "16-2120",
       "hex": "#D9489D"
     },
     {
       "name": "SheerLilac",
-      "code": "16-3617TCX",
+      "code": "16-3617",
       "hex": "#C8A7E1"
     },
     {
       "name": "JellyBean",
-      "code": "17-6030TCX",
+      "code": "17-6030",
       "hex": "#006952"
     },
     {
       "name": "MalibuBlue",
-      "code": "17-4435TCX",
+      "code": "17-4435",
       "hex": "#4589C4"
     },
     {
       "name": "RaspberryRose",
-      "code": "18-2333TCX",
+      "code": "18-2333",
       "hex": "#B33968"
     }
   ]
