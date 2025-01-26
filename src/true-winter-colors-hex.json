@@ -239,6 +239,71 @@
       "name": "RaspberryRose",
       "code": "18-2333",
       "hex": "#B33968"
+    },
+    {
+      "name": "SilverBirch",
+      "code": "13-4403",
+      "hex": "#D2CFC4"
+    },
+    {
+      "name": "PersianJewel",
+      "code": "17-3934",
+      "hex": "#6E81BE"
+    },
+    {
+      "name": "GentianViolet",
+      "code": "19-3730",
+      "hex": "#544275"
+    },
+    {
+      "name": "HalogenBlue",
+      "code": "13-3920",
+      "hex": "#BDC6DC"
+    },
+    {
+      "name": "BlueGrotto",
+      "code": "15-4421",
+      "hex": "#5CACCE"
+    },
+    {
+      "name": "NavyBlue",
+      "code": "19-3730",
+      "hex": "#403F6F"
+    },
+    {
+      "name": "PurpleMagenta",
+      "code": "19-2428",
+      "hex": "#6B264B"
+    },
+    {
+      "name": "Hollyhock",
+      "code": "19-2924",
+      "hex": "#823270"
+    },
+    {
+      "name": "Hollyhock",
+      "code": "19-2924",
+      "hex": "#823270"
+    },
+    {
+      "name": "NorthernDroplet",
+      "code": "14-4104",
+      "hex": "#BABEBF"
+    },
+    {
+      "name": "Hyacinth",
+      "code": "17-3619",
+      "hex": "#936CA7"
+    },
+    {
+      "name": "WildAster",
+      "code": "19-2630",
+      "hex": "#92316F"
+    },
+    {
+      "name": "SuperSonic",
+      "code": "18-4143",
+      "hex": "#4178BC"
     }
   ]
 }

@@ -6,11 +6,12 @@ const ColorPalette = ({
   selectedColors,
   colorLookUpTable,
 }) => {
-  // [...complementary, ...neutrals, ...accents].forEach((name) => {
-  //   if (!colorLookUpTable[name]) {
-  //     console.log(name);
-  //   }
-  // });
+  // Throw error if the pallete contains a color that is not defined.
+  [...complementary, ...neutrals, ...accents].forEach((colorName) => {
+    if (!(colorName in colorLookUpTable)) {
+      throw new Error(`Color "${colorName}" not found in the lookup table.`);
+    }
+  });
 
   const pascalToSpaced = (text) => {
     return text.replace(/([A-Z])/g, (_, letter, index) => {
